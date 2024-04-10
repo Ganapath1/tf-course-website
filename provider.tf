@@ -5,9 +5,9 @@ terraform {
       version = "5.2.0"
     }
   }
- backend "gcs" {
-    bucket  = "240408-user52-tf-state"
-    prefix  = "terraform/state"
+  backend "gcs" {
+    bucket = "240408-user52-tf-state"
+    prefix = "terraform/state"
   }
 
 }
